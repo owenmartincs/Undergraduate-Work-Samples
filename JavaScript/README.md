@@ -9,6 +9,6 @@ Information Technology II.
 
 Written in Javascript, it implements a 2D snowman that can be controlled
 by the player's left and right arrow keys. The snowman collects
-falling snowflakes and recieve decorations at 50, 100, and 150
+falling snowflakes and recieves decorative rewards at 50, 100, and 150
 snowflakes collected. The game can be launched by cloning the
 directory and opening the index.html file.

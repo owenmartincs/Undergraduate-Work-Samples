@@ -6,7 +6,7 @@
 This repository contains an old digital portfolio that showcases my high school
 achievements in computer science.
 
-In HTML, CSS, and some JavaScript, it implements a simple website containing
+It is written in HTML, CSS, and some JavaScript, and implements a website containing
 work samples from my high school CS courses, namely AP Computer Science and
 the unique Academy of Information Technology (AOIT) course series.
 

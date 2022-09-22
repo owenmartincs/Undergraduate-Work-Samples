@@ -1,5 +1,5 @@
 
-## Java Work Sample: AP Computer Science Exercise
+## Java Work Sample: AP Computer Science
 
 
 

@@ -1,0 +1,101 @@
+@font-face {
+	font-family: "Arvo-Regular"; src: url("Arvo-Regular.ttf");}
+@font-face {
+	font-family: "Arvo-Bold"; src: url("Arvo-Bold.ttf");}
+@font-face {
+	font-family: "Arvo-Italic"; src: url("Arvo-Italic.ttf");}
+* {
+	font-size: 17px;
+	text-align: center;
+	box-sizing: border-box;}
+html, body {
+	height: 100%;}
+body {
+	position: relative;
+	padding: 0px;
+	overflow: hidden;}
+h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+	z-index: -2;
+	font-family: "Arvo-Bold";
+	color: white;
+	font-size: 18vmin;
+	text-align: center;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);}
+.wrap {	
+	z-index: -1;
+    display: table;
+	position: absolute;
+	top: 0%; height: 100vh;
+	left: 0%; width: 100vw;}
+.bg1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5;
+    background: url('bg1.svg') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.1);}
+.bg2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -4;
+    background: url('bg2.svg') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.1);}
+.bg3 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -3;
+    background: url('bg3.svg') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.1);}
+.bg4 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    background: url('bg4.svg') no-repeat center center;
+    background-size: cover;
+    transform: scale(1.1);}
+.filter {
+    width: 106%;
+    height: 106%;
+    position: absolute;
+    top: -1%; bottom: -1%;
+    left: -1%; right: -1%;
+    z-index: -1;
+	opacity: 0.3;
+	background-image: url('filmgrain.png');}
+.dark {
+    width: 106%;
+    height: 106%;
+    position: absolute;
+    top: -1%; bottom: -1%;
+    left: -1%; right: -1%;
+    z-index: -1;
+	opacity: 0.01;
+	background-color: black;}

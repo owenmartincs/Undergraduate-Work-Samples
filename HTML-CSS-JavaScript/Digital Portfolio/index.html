@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="author" content="Owen Martin" />
+	<meta name="viewport" content="width=800" />
+    <title>Owen Martin</title>
+	<link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  
+  <body>
+	
+	<div id="stars"></div>
+	
+	<div id="BGiframe"><iframe name="iframe0" src="background/index.html" width="100%" height="100%" frameborder="0" marginwidth="0"></iframe></div>
+	
+	<div id="iframe" class=""><iframe name="iframe1" src="" width="100%" height="100%" frameborder="0" marginwidth="0"></iframe></div>
+	
+	<div id="container" onclick="showMenu();">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+	</div>
+	
+	<div id="sidenav">
+		<a href="#home" onclick="showMenu(); moveBack();">Home</a>
+		<a href="about.html" target="iframe1" onclick="showMenu(); move();">About Me</a>
+		<a href="aoitI.html" target="iframe1" onclick="showMenu(); move();">AOIT I</a>
+		<a href="aoitII.html" target="iframe1" onclick="showMenu(); move();">AOIT II</a>
+		<button class="dropdown-btn">AOIT III 
+			<i class="fa fa-caret-down"></i>
+		</button>
+		<div class="dropdown-container">
+			<a href="aoitIIIq1.html" target="iframe1" onclick="showMenu(); move();">Quarter 1</a>
+			<a href="aoitIIIq2.html" target="iframe1" onclick="showMenu(); move();">Quarter 2</a>
+			<a href="aoitIIIq3.html" target="iframe1" onclick="showMenu(); move();">Quarter 3</a>
+			<a href="aoitIIIq4.html" target="iframe1" onclick="showMenu(); move();">Quarter 4</a>
+		</div>
+	</div>
+	
+	<script>
+		function showMenu() {
+			var container = document.getElementById("container"); 
+			container.classList.toggle("change");
+			var sidenav = document.getElementById("sidenav");   
+			sidenav.classList.toggle("moved");
+			var iFrame = document.getElementById("iframe");
+			if(iFrame.classList.contains("moved") || iFrame.classList.contains("displaced"))
+				{ 
+				iFrame.classList.toggle("displaced");
+				}
+			}
+		
+		function move() {
+			var BGiFrame = document.getElementById("BGiframe");   
+			BGiFrame.classList.add("moved");
+			var iFrame = document.getElementById("iframe");
+			iFrame.classList.add("moved");}
+			
+		function moveBack() {
+			var BGiFrame = document.getElementById("BGiframe");   
+			BGiFrame.classList.remove("moved");
+			var iFrame = document.getElementById("iframe");
+			iFrame.classList.remove("moved");
+			}   
+					
+		var dropdown = document.getElementsByClassName("dropdown-btn");
+		var i;
+
+		for (i = 0; i < dropdown.length; i++) {
+		  dropdown[i].addEventListener("click", function() {
+			this.classList.toggle("active");
+			var dropdownContent = this.nextElementSibling;
+			if (dropdownContent.style.display === "block") {
+			  dropdownContent.style.display = "none";
+			} else {
+			  dropdownContent.style.display = "block";
+			}
+		  });
+		}
+	</script>
+	
+  </body>
+  
+</html>

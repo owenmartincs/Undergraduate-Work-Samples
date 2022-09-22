@@ -5,10 +5,10 @@
 
 This repository contains a simple holiday game I made back in 2016
 during one of my high school computer science courses, Academy of
-Information Technology (AOIT) II.
+Information Technology II.
 
 Using Javascript, it implements a 2D snowman controlled by the
-player's left and right arrow keys. The snowman will collect the
+player's left and right arrow keys. The snowman will collect
 falling snowflakes and recieve decorations at 50, 100, and 150
 snowflakes collected.
 

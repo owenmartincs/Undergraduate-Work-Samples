@@ -4,7 +4,7 @@
 
 
 This repository contains a Python notebook I created
-during my time with Dr. Joao Alves at the Radcliffe
+during my time with Dr. João Alves at the Radcliffe
 Institute for Advanced Study at Harvard University.
 
 Run in Google Colab, it requests read and write

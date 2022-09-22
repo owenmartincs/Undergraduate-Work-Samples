@@ -3,7 +3,7 @@
 
 
 
-This repository contains my final project for Harvard's
+This repository contains a copy of my final project for Harvard's
 CS 51 class, Abstraction and Design in Computation, which
 teaches design, abstraction, testing, and debugging skills.
 

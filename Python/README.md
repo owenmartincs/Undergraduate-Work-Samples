@@ -8,5 +8,5 @@ during my time with Dr. Joao Alves at the Radcliffe
 Institute for Advanced Study at Harvard University.
 Run in Google Colab, it requests read and write
 permission to the researcher's Google Drive data
-directory so that they can perform simulations
-entirely in the cloud.
+directory so that they can perform simulations of
+stellar orbits entirely in the cloud.

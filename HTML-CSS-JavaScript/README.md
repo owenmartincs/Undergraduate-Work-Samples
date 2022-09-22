@@ -1,5 +1,5 @@
 
-## HTML, CSS, and JavaScript Work Sample: High School Digital Portfolio
+## HTML/CSS/JavaScript Work Sample: Digital Portfolio
 
 
 

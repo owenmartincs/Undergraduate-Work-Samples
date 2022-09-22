@@ -1,5 +1,5 @@
 
-## OCaml Work Sample: CS51 Final Project
+## OCaml Work Sample: User-Defined Turing-Complete Language
 
 
 

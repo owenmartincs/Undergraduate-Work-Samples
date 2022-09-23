@@ -1,9 +1,9 @@
 
-## JavaScript Work Sample: Holiday Game
+## JavaScript Work Sample: Holiday Game (2016)
 
 
 
-This repository contains a simple holiday game I made back in 2016
+This repository contains a simple holiday game I made
 during one of my high school computer science courses, Academy of
 Information Technology II.
 

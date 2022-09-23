@@ -1,10 +1,10 @@
 
-## Java Work Sample: AP Computer Science
+## Java Work Sample: AP Computer Science (2017)
 
 
 
 This repository contains an exercise from my high school
-AP Computer Science course of 2017.
+AP Computer Science course.
 
 Written in Java, it implements a simple object-oriented program that
 uses encapsulation, class interaction, and polymorphism to
